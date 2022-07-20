@@ -1,0 +1,5 @@
+/* Importando todos os estilos para um único arquivo */
+@import url('./default-styles.css');
+@import url('./header-home.css');
+@import url('./nav-bar.css');
+@import url('./section-service-home.css');

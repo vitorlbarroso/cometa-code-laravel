@@ -1,0 +1,103 @@
+/* //=================== Styles Home Desktop ===================\\ */
+@media screen and (min-width: 768px) {
+    /* Background do header com a imagem */
+    #background-header-home {
+        width: 100%;
+        height: 600px;
+        background-image: url('../img/background-header-desktop.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    /* Background dos textos do header */
+    #background-header-home #background-texts {
+        width: 550px;
+        max-width: 80vw;
+        margin-left: 20px;
+        padding: 150px 20px 0px 20px;
+    }
+    
+    #background-header-home #slogan-header-home {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
+    /* Botão para entrar em contato */
+    #button-contact-header-home {
+        margin-top: 50px;
+    }
+    
+    #button-contact-header-home a {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #FF1B1C;
+        color: white;
+        padding: 13px 120px;
+        border-radius: 30px;
+    }
+}
+
+/* //=================== Styles Home Mobile and Tablet ===================\\ */
+@media screen and (max-width: 767px) {
+    /* Background do header com a imagem */
+    #background-header-home {
+        width: 100%;
+        height: 600px;
+        background-image: url('../img/background-header-mobile.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    /* Background dos textos do header */
+    #background-header-home #background-texts {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 150px 20px 0px 20px;
+        text-align: center;
+    }
+    
+    #background-header-home #slogan-header-home {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
+    /* Botão para entrar em contato */
+    #button-contact-header-home {
+        margin-top: 50px;
+    }
+    
+    #button-contact-header-home a {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #FF1B1C;
+        color: white;
+        padding: 13px 120px;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    /* Background dos textos do header */
+    #background-header-home #slogan-header-home {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    /* Botão para entrar em contato */
+    #button-contact-header-home {
+        margin-top: 50px;
+    }
+    
+    #button-contact-header-home a {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #FF1B1C;
+        color: white;
+        padding: 13px 60px;
+        border-radius: 30px;
+    }
+}

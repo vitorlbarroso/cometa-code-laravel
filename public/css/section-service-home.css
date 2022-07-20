@@ -1,0 +1,118 @@
+/* Estilos padrões da section */
+
+.background-section-service {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#section-ecommerce {
+    flex-direction: row-reverse;
+}
+
+#section-ecommerce .texts-section-service {
+    padding-left: 70px;
+}
+
+#section-ecommerce #description-texts-section-service p {
+    width: 80%;
+}
+
+.img-section-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    max-width: 100%;
+    height: 500px;
+    margin-right: 30px;
+}
+
+.img-section-service img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.texts-section-service {
+    width: 60%;
+    max-width: 700px;
+    height: auto;
+}
+
+#description-texts-section-service p {
+    width: 70%;
+    font-size: 21px;
+    letter-spacing: 0.8px;
+}
+
+#link-texts-section-service {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    border-bottom: 2px solid #FF1B1C;
+    color: #FF1B1C;
+    width: 200px;
+    max-width: 95%;
+    font-weight: bold;
+}
+
+#link-texts-section-service a {
+    color: #FF1B1C;
+    padding-left: 5px;
+}
+
+#link-texts-section-service i {
+    font-size: 16px;
+}
+
+/* Estilo quando quebra */
+@media screen and (max-width: 1246px) {
+    .background-section-service {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 40px;
+    }
+    
+    #section-ecommerce .texts-section-service {
+        padding-left: 0px;
+    }
+    
+    .texts-section-service {
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #description-texts-section-service p {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+        font-size: 19px;
+    }
+    
+    #section-landing-page {
+        margin-top: -150px;
+    }
+    
+    .img-section-service {
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: auto;
+    }
+    
+    .img-section-service img {
+        max-width: 90%;
+    }
+    
+    #link-texts-section-service {
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,135 @@
+/* //=================== Nav-bar fechada ===================\\ */
+/* Definindo cursor pointer para computadores */
+@media screen and (min-width: 769px) {
+    #icon-open-nav-bar {
+        cursor: pointer;
+    }
+    
+    #menu-nav-bar #icon-close-nav-bar {
+        cursor: pointer;
+    }
+    
+    #actions-nav-bar p {
+        cursor: pointer;
+    }
+}
+
+/* Background da nav-bar fechada */
+#background-nav-bar {
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 50px;
+}
+
+/* Ícone de abertura da nav-bar */
+#icon-open-nav-bar {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#icon-open-nav-bar p {
+    font-size: 17px;
+    font-weight: 700;
+    color: #FF1B1C;
+}
+
+#icon-open-nav-bar i {
+    font-weight: 700;
+    color: #121212;
+    padding-top: 5px;
+}
+
+/* //=================== Nav-bar Aberta ===================\\ */
+/* Background do menu da nav-bar */
+#menu-nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    max-width: 1440px;
+    height: 90vh;
+    background-color: #181818;
+}
+
+#menu-nav-bar #icon-close-nav-bar {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#menu-nav-bar #icon-close-nav-bar i {
+    color: red;
+    font-size: 20px;
+}
+
+/* Ações do menu da nav-bar */
+#actions-nav-bar {
+    width: 600px;
+    max-width: 80vw;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#actions-nav-bar #home {
+    margin-top: 50px;
+}
+
+#actions-nav-bar p {
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid #202020;
+    padding: 10px 0px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+#actions-nav-bar p:hover {
+    color: #FF1B1C;
+    transition: 0.3s;
+}
+
+/* //=================== Footer nav-bar aberta ===================\\ */
+#copy-nav-bar {
+    width: 600px;
+    max-width: 80vw;
+    margin: 60px auto;
+    text-align: center;
+}
+
+/* Redes sociais */
+#social-media-nav-bar {
+    width: 600px;
+    max-width: 80vw;
+    padding-bottom: 15px;
+}
+
+#social-media-nav-bar a {
+    font-size: 22px;
+    margin: 0px 10px;
+    color: #FF1B1C;
+    transition: 0.3s;
+}
+
+#social-media-nav-bar a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+/* Texto de copy */
+#text-copy-nav-bar p {
+    color: #404040;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 480px) {
+    /* Texto de copy */
+    #text-copy-nav-bar p {
+        font-size: 16px;
+    }
+}
