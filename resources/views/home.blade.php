@@ -24,6 +24,7 @@
 @include('include.global.nav-bar')
 @include('include.home.header-home')
 @include('include.home.section-services-home')
+@include('include.home.section-process')
 
 <script src="js/nav-bar.js" type="module"></script>
 
