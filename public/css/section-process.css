@@ -15,7 +15,7 @@
     font-size: 50px;
     font-family: 'Roboto';
     color: #FF1B1C;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Background dos processos */
@@ -55,7 +55,7 @@
     font-size: 50px;
     margin-top: 55px;
     text-align: center;
-    color: #121212;
+    color: #1f1f1f;
 }
 
 #texts-process h3 {
@@ -73,4 +73,14 @@
     font-family: 'Open Sans';
     padding-bottom: 10px;
     color: #121212;
+}
+
+/* //=================== Styles Mobile ===================\\ */
+@media screen and (max-width:768px) {
+    #title-section-process h2 {
+        font-size: 43px;
+        font-family: 'Roboto';
+        color: #FF1B1C;
+        margin-top: 100px;
+    }
 }
