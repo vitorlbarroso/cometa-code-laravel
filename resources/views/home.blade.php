@@ -31,7 +31,7 @@
 @include('include.home.section-services-home')
 @include('include.home.section-process')
 @include('include.home.section-clients')
-
+@include('include.global.footer')
     
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>

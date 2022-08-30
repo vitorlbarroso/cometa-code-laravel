@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    padding: 40px 0px;
+    margin-top: 60px;
+    text-align: center;
+    border-top: 2px solid rgb(172, 172, 172);
+}
+
+#socials-footer a {
+    font-size: 25px;
+    margin: 0px 5px;
+    color: #ff1b1c;
+}
+
+#copy-footer {
+    padding-top: 10px;
+}
