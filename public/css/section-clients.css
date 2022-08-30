@@ -1,0 +1,26 @@
+/* Título dos clientes */
+#title-section-clients {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#title-section-clients p {
+    padding-top: 10px;
+}
+
+.clients {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 10px 0px;
+}
+
+.client .bg-client-logo {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.client .bg-client-logo img {
+    width: 120px;
+}
